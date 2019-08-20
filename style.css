@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    min-width: 320px;
+  }
+
+header {
+  background: lightslategray;
+  height: 80px;
+}
+
+.nav {
+  float: right;
+}
+
+.LANDER {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  min-height: 200px;
+  background: darkgray;
+}
+
+footer {
+  height: 10px;
+  width: 100%;
+  background: lightslategray;
+  margin-top: 30px;
+}
+
+.joinform {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+form {
+    text-align: left;
+  }
+  
+  input, textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .form-section {
+    margin-bottom: 30px;
+  }
+
+  .list-image {
+  float: left;
+  height: 150px;
+  width: 150px;
+  background: gray;
+  }
+
+  .list-item {
+    border: 3px solid black;
+    max-width: 400px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .list-comment {
+    border: 3px solid black;
+    max-width: 800px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #submit-spirit {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+
+  }
+
+  #search-whiskey {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+  }
+
+  .form-section-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flexspace-between;
+  }
+
+.search-radios {
+  width: 100px;
+  margin: 20px;
+}
+
+.comment-input {
+  max-width: 500px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-item {
+  max-width: 800px;
+  min-height: 400px;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
